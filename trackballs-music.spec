@@ -18,6 +18,7 @@ Group:		Games/Arcade
 License:	GPL
 URL:		http://sourceforge.net/projects/trackballs
 BuildArch:	noarch
+BuildRoot:	%{_tmppath}/%{name}-buildroot
 
 %description
 Some great music to listen to while playing Trackballs.
