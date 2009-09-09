@@ -1,7 +1,7 @@
 %define base_name trackballs
 %define name %{base_name}-music
 %define version 1.4
-%define release %mkrel 4
+%define release %mkrel 5
 
 Name: %{name}
 Version: %{version}
