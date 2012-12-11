@@ -48,3 +48,47 @@ install -m 644 *.ogg %{buildroot}%{_gamesdatadir}/%{base_name}/music
 %clean
 rm -rf %{buildroot}
 
+
+
+%changelog
+* Wed Sep 09 2009 Thierry Vignaud <tvignaud@mandriva.com> 1.4-5mdv2010.0
++ Revision: 434457
+- rebuild
+
+* Sun Aug 03 2008 Thierry Vignaud <tvignaud@mandriva.com> 1.4-4mdv2009.0
++ Revision: 261644
+- rebuild
+
+* Wed Jul 30 2008 Thierry Vignaud <tvignaud@mandriva.com> 1.4-3mdv2009.0
++ Revision: 254712
+- rebuild
+
+* Tue Mar 04 2008 Guillaume Bedot <littletux@mandriva.org> 1.4-1mdv2008.1
++ Revision: 179227
+- 1.4
+
+  + Olivier Blin <oblin@mandriva.com>
+    - restore BuildRoot
+
+  + Thierry Vignaud <tvignaud@mandriva.com>
+    - kill re-definition of %%buildroot on Pixel's request
+
+* Wed Sep 19 2007 Guillaume Rousse <guillomovitch@mandriva.org> 1.2-5mdv2008.0
++ Revision: 90339
+- rebuild
+
+* Wed Apr 18 2007 Guillaume Bedot <littletux@mandriva.org> 1.2-4mdv2008.0
++ Revision: 14715
+- 2 new tracks added
+
+
+* Fri May 05 2006 Guillaume Rousse <guillomovitch@mandriva.org> 1.2-3mdk
+- rebuild
+
+* Sat Mar 05 2005 Guillaume Bedot <guillaume.bedot@cegetel.net> 1.2-2mdk
+- 2 new tracks.
+
+* Wed May 26 2004 Guillaume Rousse <guillomovitch@mandrake.org> 1.2-1mdk
+- new version
+- rpmbuildupdate aware
+
