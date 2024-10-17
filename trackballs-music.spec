@@ -11,7 +11,7 @@ Requires: %{base_name} >= 0.5.0
 Source: http://downloads.sourceforge.net/trackballs/trackballs-music-1.4.tar.bz2
 Group: Games/Arcade
 License: GPL, Ethymos Free Music Licence
-URL: http://sourceforge.net/projects/trackballs
+URL: https://sourceforge.net/projects/trackballs
 BuildArch: noarch
 BuildRoot: %{_tmppath}/%{name}-buildroot
 
